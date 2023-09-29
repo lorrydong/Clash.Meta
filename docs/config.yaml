@@ -546,6 +546,21 @@ proxies: # socks5
       headers:
         Host: example.com
 
+  - type: vless
+    name: workers.yingroad.top
+    server: workers.yingroad.top
+    port: 443
+    uuid: 6ccb686b-a5fb-4e1c-9890-61578daa3c90
+    network: ws
+    tls: true
+    udp: false
+    sni: workers.yingroad.top
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: workers.yingroad.top
+
   # Trojan
   - name: "trojan"
     type: trojan
