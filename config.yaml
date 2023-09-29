@@ -190,7 +190,7 @@ proxies:
   sni: www.bing.com                                # SNI 域名或自签证书的三方域名
   skip-cert-verify: true                           # 如不使用自签证书则改为 false
   fast-open: true
-
+  
 - name: tuic-V4                                    # 可以自定义节点名称
   server: www.misaka.rest                          # 解析的域名或 IP
   port: 12345                                      # 自定义端口
